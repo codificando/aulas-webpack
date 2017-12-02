@@ -1,6 +1,6 @@
 const { sayHelloTo } = require('./hello.js');
 
-const span = document.creatElement('span');
-span.innerText = sayHelloTo('Java Script Developer');
+const span = document.createElement('span');
+span.innerText = sayHelloTo('Javascript Developer');
 
 document.body.appendChild(span);
