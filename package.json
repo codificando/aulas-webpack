@@ -1,0 +1,22 @@
+{
+  "name": "aulas-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codificando/aulas-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codificando/aulas-webpack/issues"
+  },
+  "homepage": "https://github.com/codificando/aulas-webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.9.1"
+  }
+}
