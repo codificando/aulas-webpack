@@ -1,4 +1,4 @@
 
     - Criando o arquivo final do webpack por linha de comando:
-            entrada \/       saída \/
+    webpack <entry>          <output>
     webpack ./src/js/app.js ./build/bundle.js
