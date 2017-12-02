@@ -1,7 +1,9 @@
+const path = require('path')
+
 module.exports = {
   entry: './src/js/app.js',
   output: {
-    path: './build',
+    path: path.resolve(__dirname, './build'),
     filename: 'bundle.js'
   }
 }
