@@ -18,5 +18,8 @@
   "homepage": "https://github.com/codificando/aulas-webpack#readme",
   "devDependencies": {
     "webpack": "^3.9.1"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^2.9.7"
   }
 }
