@@ -4,3 +4,10 @@
 
 - Criando package.json
     npm init
+
+- Instalando o servidor para executar o projeto
+    npm install --g webpack-dev-server
+    npm install --saveDev webpack-dev-server
+    
+- Iniciando o servidor na pasta build
+    webpack-dev-server --content-base build
