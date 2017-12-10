@@ -11,3 +11,7 @@
     
 - Iniciando o servidor na pasta build
     webpack-dev-server --content-base build
+
+- Gerando bundle (pacote final)
+	webpack
+	**Configurando no package.json sai como ==> npm run build
