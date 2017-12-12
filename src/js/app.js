@@ -1,3 +1,5 @@
+debugger;
+
 const { sayHelloTo } = require('./hello.js');
 
 const span = document.createElement('span');

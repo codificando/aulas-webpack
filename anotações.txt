@@ -15,3 +15,6 @@
 - Gerando bundle (pacote final)
 	webpack
 	**Configurando no package.json sai como ==> npm run build
+
+- Sourcer Map
+	Remapeamento do código que roda no broswer (bundle.js) para o código original
