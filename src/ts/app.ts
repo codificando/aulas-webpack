@@ -1,7 +1,7 @@
+import { sayHelloTo } from './hello.ts'
+
+var module : any;
 debugger;
-
-const { sayHelloTo } = require('./hello.js');
-
 const span = document.createElement('span');
 span.innerText = sayHelloTo('Ingrid!');
 
