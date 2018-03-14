@@ -1,4 +1,4 @@
-import './../css/main.css'
+import './../styles/main.scss'
 import { sayHelloTo } from './hello.ts'
 
 var module : any;
