@@ -1,7 +1,8 @@
+import './../css/main.css'
 import { sayHelloTo } from './hello.ts'
 
 var module : any;
-debugger;
+
 const span = document.createElement('span');
 span.innerText = sayHelloTo('Ingrid!');
 
