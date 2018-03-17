@@ -16,5 +16,5 @@
 	webpack
 	**Configurando no package.json sai como ==> npm run build
 
-- Sourcer Map
+- Sourcermap
 	Remapeamento do código que roda no broswer (bundle.js) para o código original
