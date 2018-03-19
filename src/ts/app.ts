@@ -1,5 +1,5 @@
-import './../styles/main.scss'
-import { sayHelloTo } from './hello.ts'
+import './../styles/main'
+import { sayHelloTo } from './hello'
 
 var module : any;
 

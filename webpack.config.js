@@ -20,5 +20,9 @@ module.exports = {
             loader: 'style-loader!css-loader!sass-loader'
         }
   	]
+  },
+  //Ocultando extenções ao fazer include
+  resolve: {
+  	extensions: ['.webpack.js','".web.js', '.js', '.ts', '.scss']
   }
 }
