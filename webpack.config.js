@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/ts/app.ts',
+  entry: './src/ts/app/app.ts',
   output: {
     path: path.resolve(__dirname, './build'),
     filename: 'bundle.js'
@@ -23,6 +23,10 @@ module.exports = {
   },
   //Ocultando extenções ao fazer include
   resolve: {
-  	extensions: ['.webpack.js','".web.js', '.js', '.ts', '.scss']
+  	extensions: ['.webpack.js','".web.js', '.js', '.ts', '.scss'],
+  	alias: {
+  		styles: path.resolve(__dirname, 'src/styles'),
+  		helpers: path.resolve(__dirname, 'src/ts/helpers')
+  	}
   }
 }
