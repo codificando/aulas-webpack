@@ -23,7 +23,7 @@ module.exports = {
   },
   //Ocultando extenções ao fazer include
   resolve: {
-  	extensions: ['.webpack.js','".web.js', '.js', '.ts', '.scss'],
+    extensions: ['.webpack.js', '.web.js', '.js', '.ts', '.scss'],
   	alias: {
   		styles: path.resolve(__dirname, 'src/styles'),
   		helpers: path.resolve(__dirname, 'src/ts/helpers')
