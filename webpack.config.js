@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+var webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -31,8 +31,11 @@ module.exports = {
   	}
   },
   plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            compress: { warnings: false }
-        })
-    ]
+    new webpack.optimize.UglifyJsPlugin({
+        compress: {
+            warnings: false,
+            drop_console: false,
+        }
+    })  
+  ]
 }
